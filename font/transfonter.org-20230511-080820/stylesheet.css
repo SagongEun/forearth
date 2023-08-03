@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'jamsil';
+    src: url('TheJamsilOTF2Light.eot');
+    src: url('TheJamsilOTF2Light.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF2Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jamsil';
+    src: url('TheJamsilOTF1Thin.eot');
+    src: url('TheJamsilOTF1Thin.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF1Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jamsil';
+    src: url('TheJamsilOTF3Regular.eot');
+    src: url('TheJamsilOTF3Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF3Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jamsil';
+    src: url('TheJamsilOTF5Bold.eot');
+    src: url('TheJamsilOTF5Bold.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF5Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jamsil';
+    src: url('TheJamsilOTF4Medium.eot');
+    src: url('TheJamsilOTF4Medium.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF4Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'jamsil';
+    src: url('TheJamsilOTF6ExtraBold.eot');
+    src: url('TheJamsilOTF6ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('TheJamsilOTF6ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

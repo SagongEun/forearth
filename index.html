@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=1450">
+    <title>FOR EARTH</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--jamsil-->
+    <link rel="stylesheet" href="./font/transfonter.org-20230511-080820/stylesheet.css">
+    <!--suite-->
+    <link rel="stylesheet" href="./font/transfonter.org-20230511-080201/stylesheet.css">
+
+    <link rel="stylesheet" href="./js/script.js">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="fixed">
+    <div id="top">
+        <div class="top_inner">
+            <h1>
+                <a href="./index.html"> <img src="./images/logo.jpg" alt="로고이미지" height="60px"></a>
+            </h1>
+            <ul>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">JOIN</a></li>
+            </ul>
+        </div> <!--top_inner-->
+    </div> <!--top-->
+
+    <div id="header">
+        <div class="header_in">
+            <ul class="gnb">
+                <li><a href="#">BRAND</a>
+                  <ul class="sub">
+                    <li><a href="./sub1.html">STORY</a></li>
+                    <li><a href="./sub2.html">PACKAGE</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">SHOP</a>
+                  <ul class="sub">
+                    <li><a href="./sub3.html">MEAL</a></li>
+                    <li><a href="./sub4.html">LIVING</a></li>
+                  </ul>
+                </li>
+                <li><a href="./sub7.html">EVENT</a>
+                  <ul class="sub">
+                    <li><a href="./sub7.html #tag1">PLOGGING</a></li>
+                    <li><a href="./sub7.html #tag2">CHALLENGE</a></li>
+                  </ul>
+                </li>
+                <li><a href="./sub5.html">MAGAZINE</a></li>
+            </ul>
+            <ol>
+                <li><a href="#">
+                    <form action="">
+                        <input type="text" class="search"
+                        placeholder="search">
+                    </form>
+                </a></li>
+                <li><a href="#"><img src="./images/user.png" alt="사용자이미지"></a></li>
+                <li><a href="#"><img src="./images/shopping-bag.png" alt="장바구니이미지"></a></li>
+            </ol>
+        </div> <!--header_in-->
+    </div> <!--header-->
+    </div> <!--fixed-->
+
+
+     <!-- Swiper -->
+  <div class="swiper main_banner">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/main_banner_2-1.jpg" alt="메인배너이미지"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/main_banner_4-1.jpg" alt="메인배너이미지2"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/main_banner_1-1.jpg" alt="메인배너이미지3"></a>
+      </div>
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/main_banner_3-1.jpg" alt="메인배너이미지4"></a>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".main_banner", {
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      loop: true,
+    });
+  </script>
+
+
+<div id="best">
+    <div class="best_box">
+        <div class="best_in" data-aos="fade-up-right">
+            <h1>BEST</h1>
+            <p>
+                포어스에서 가장 인기있는 베스트 제품! <br>
+                지구를 위하는 일, 어렵지 않아요
+            </p>
+            <div id="best_menu">
+                <div class="oat_kakao">
+                   <img src="./images/usoat_kakao.png" alt="어스오트카카오이미지">
+                </div> <!--oat_kakao-->
+                <div class="round"><P>#어스오트 카카오</P></div> <!--round-->
+            </div> <!--best_menu-->
+        </div> <!--best_in-->
+
+        <div id="best_item">
+            <div class="item_box" data-aos="fade-up">
+                <div class="item">
+                    <a href="#"> <img src="./images/cracker_garlic.jpg" alt="갈릭 크래커"></a>
+                    <p>  어스 크래커 갈릭</p>
+                    <div class="white_box">
+                      <div class="white_box_img">
+                        <a href="#"><img src="./images/best_hover.png" alt="장바구니호버"></a>
+                        <a href="#"><img src="./images/best_hover2.png" alt="돋보기호버"></a>
+                      </div>
+                    </div> <!--white_box-->
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./images/proteinbar_blueberry.jpg" alt="블루베리 프로틴바"></a> 
+                    <p>포어스 프로틴바 블루베리</p>
+                    <div class="white_box2">
+                      <div class="white_box_img">
+                        <a href="#"><img src="./images/best_hover.png" alt="장바구니호버"></a>
+                        <a href="#"><img src="./images/best_hover2.png" alt="돋보기호버"></a>
+                      </div>
+                    </div> <!--white_box2-->
+                </div>
+                <div class="item">
+                    <a href="#"> <img src="./images/shampoobar_rose.jpg" alt="로즈 샴푸바"></a>
+                    <p>포어스 샴푸바 로즈</p>
+                    <div class="white_box3">
+                      <div class="white_box_img">
+                        <a href="#"><img src="./images/best_hover.png" alt="장바구니호버"></a>
+                        <a href="#"><img src="./images/best_hover2.png" alt="돋보기호버"></a>
+                      </div>
+                    </div> <!--white_box3-->
+                </div>
+            </div> <!--items-->
+
+            <div class="item_box" data-aos="fade-up">
+                <div class="item">
+                    <a href="#"><img src="./images/bamboo_toothbrush.jpg" alt="대나무 칫솔"></a>
+                    <p>어스 대나무 칫솔</p>
+                    <div class="white_box">
+                      <div class="white_box_img">
+                        <a href="#"><img src="./images/best_hover.png" alt="장바구니호버"></a>
+                        <a href="#"><img src="./images/best_hover2.png" alt="돋보기호버"></a>
+                      </div>
+                    </div> <!--white_box-->
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./images/cracker_kakao.jpg" alt="카카오 크래커"></a>
+                    <p>  어스 크래커 카카오</p>
+                    <div class="white_box2">
+                      <div class="white_box_img">
+                        <a href="#"><img src="./images/best_hover.png" alt="장바구니호버"></a>
+                        <a href="#"><img src="./images/best_hover2.png" alt="돋보기호버"></a>
+                      </div>
+                    </div> <!--white_box2-->
+                </div>
+                <div class="item">
+                    <a href="#"><img src="./images/showerbar_floral.jpg" alt="샤워비누 플로랄"></a>
+                    <p>포어스 샤워비누 플로랄</p>
+                    <div class="white_box3">
+                      <div class="white_box_img">
+                        <a href="#"><img src="./images/best_hover.png" alt="장바구니호버"></a>
+                        <a href="#"><img src="./images/best_hover2.png" alt="돋보기호버"></a>
+                      </div>
+                    </div> <!--white_box3-->
+                </div>
+            </div> <!--items-->
+        </div> <!--best_item-->
+    </div> <!--best_box-->
+</div> <!--best-->
+
+
+<a href="./sub1.html"><div id="sub_banner">
+    <p class="animation1"><img src="./images/logo_ani.png" alt="로고이미지"></p>
+    <p class="animation2"><img src="./images/logo_ani.png" alt="로고이미지"></p>
+</div> <!--sub_banner--></a>
+
+
+<div data-aos="fade-up"
+data-aos-easing="ease-out-back"
+data-aos-duration="1000" >
+<div id="meal">
+    <p>MEAL</p>
+
+  <div class="meal_po">
+
+ <!-- Swiper -->
+ <div class="swiper meal_menu">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/meal1.jpg" alt="식품이미지1"></a>
+        <p>어스오트 오리지널</p>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#"> <img src="./images/meal6.jpg" alt="식품이미지2">  </a>
+        <p>어스오트 카카오</p>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#"> <img src="./images/meal3.jpg" alt="식품이미지3"> </a>
+        <p>포어스 크래커 곡물</p>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/meal7.jpg" alt="식품이미지4"></a>
+        <p>포어스 크래커 얼그레이</p>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/meal9.jpg" alt="식품이미지5"></a>
+        <p>포어스 크래커 카카오</p>
+    </div>
+
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/meal10.jpg" alt="식품이미지6">  </a>
+        <p>포어스 크래커 갈릭</p>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/meal2.jpg" alt="식품이미지7"></a>
+        <p>포어스 프로틴바 오리지널</p>
+    </div>
+
+      <div class="swiper-slide">
+        <a href="#"><img src="./images/meal5.jpg" alt="식품이미지8"></a>
+        <p>포어스 프로틴바 블루베리</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/meal4.jpg" alt="식품이미지9"></a>
+        <p>포어스 라운드미트</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/meal8.jpg" alt="식품이미지10"></a>
+        <p>포어스 슬라이스미트</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/meal11.jpg" alt="식품이미지11"></a>
+        <p>포어스 두부너겟</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/meal12.jpg" alt="식품이미지12"></a>
+        <p>포어스 두부스틱</p>
+    </div>
+
+    </div> <!--swiper-wrapper-->
+    </div> <!--meal_menu-->
+
+    <div class="swiper-button-next meal_next"></div>
+    <div class="swiper-button-prev meal_prev"></div>
+  
+  </div> <!--meal_po-->
+</div>
+ 
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".meal_menu", {
+      slidesPerView: 4,
+      spaceBetween: 50,
+      navigation: {
+        nextEl: ".meal_next",
+        prevEl: ".meal_prev",
+      },
+    });
+  </script>
+</div> <!--meal-->
+
+<div data-aos="fade-up"
+data-aos-easing="ease-out-back"
+data-aos-duration="1000" >
+<div id="living">
+  <p>LIVING</p>
+
+<div class="living_po">
+
+<!-- Swiper -->
+<div class="swiper living_menu">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living1.jpg" alt="제품이미지1"></a>
+      <p>포어스 샴푸바 라벤더</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living2.jpg" alt="제품이미지2"> </a>
+      <p>포어스 샴푸바 로즈</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living3.jpg" alt="제품이미지3"></a>
+      <p>포어스 샤워비누 플로랄</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living4.jpg" alt="제품이미지4"> </a>
+      <p>포어스 샤워비누 오렌지</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living5.jpg" alt="제품이미지5"></a>
+      <p>포어스 고체치약 민트</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living6.jpg" alt="제품이미지6"></a>
+      <p>포어스 고체치약 자몽</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living7.jpg" alt="제품이미지7"></a>
+      <p>어스 대나무 칫솔</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living8.jpg" alt="제품이미지8"></a>
+      <p>포어스 친환경 수건</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living9.jpg" alt="제품이미지9"></a>
+      <p>어스 천연 수세미</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living10.jpg" alt="제품이미지10"></a>
+      <p>어스 나무&실리콘 빗</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living11.jpg" alt="제품이미지11"></a>
+      <p>포어스 친환경 루파샤워타올</p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/living12.jpg" alt="제품이미지12"></a>
+      <p>포어스 다회용 스테인리스 빨대</p>
+    </div>
+
+
+
+  </div> <!--swiper-wrapper-->
+  </div> <!--living_menu-->
+
+  <div class="swiper-button-next living_next"></div>
+  <div class="swiper-button-prev living_prev"></div>
+
+ </div> <!--living_po-->
+</div>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".living_menu", {
+    slidesPerView: 4,
+    spaceBetween: 50,
+    navigation: {
+      nextEl: ".living_next",
+      prevEl: ".living_prev",
+    },
+  });
+</script>
+</div> <!--living-->
+
+
+
+  
+<div id="review">
+  <div id="review_flex">
+    <h1>REVIEW</h1>
+  <div class="review_content">
+    <div class="review_box" data-aos="fade-up">
+      <div class="review_img">
+      <img src="./images/review1.jpg" alt="프로틴바 오리지널">
+      </div>
+      <div class="review_text">
+        <p class="review_title">포어스 프로틴바 오리지널</p>
+        <img src="./images/star.png" alt="별점" class= "star">
+        <p>
+          너무 고소하고 맛있어요ㅠㅠ 다이어트 중인데 아침 대용으로 하나씩 먹으면
+          생각보다 포만감 오래가고 좋아용ㅎㅎ 다음에는 블루베리맛도 사보려고 해요!
+        </p>
+        <a href="#"><img src="./images/view_more.png" alt="더보기"></a>
+      </div>
+    </div> <!--review_box-->
+
+    <div class="review_box" data-aos="fade-up">
+      <div class="review_img">
+      <img src="./images/ploggign_kit.jpg" alt="어스플로깅키트">
+      </div>
+      <div class="review_text">
+        <p class="review_title">어스 플로깅 키트</p>
+        <img src="./images/star2.png" alt="별점" class= "star">
+        <p>
+          요즘 환경 보호에 관심이 많아져서 주말에 등산 갈때 사용하려고 플로깅 키트를
+          한번 구매해봤어요. 가볍게 들고 다니기 좋고 딱 필요한 것들만 구성되어 있어서 좋아
+        </p>
+        <a href="#"><img src="./images/view_more.png" alt="더보기"></a>
+      </div> 
+    </div> <!--review_box-->
+  </div> <!--review_content--> 
+  </div> <!--review_flex-->
+</div> <!--review-->
+
+
+<div id="event">>
+<div id="event_box">
+  <div class="event_po">
+  <div class="plogging_po">
+  <div class="plogging" data-aos="fade-right">
+    <div class="plogging_back">
+      <img src="./images/plogging.png" alt="플로깅 배경">
+    </div> <!--plogging_back-->
+    <div class="event_text" >
+    <h3>PLOGGING</h3>
+    <p class="plogging_text">
+      건강과 환경 둘 다 잡아보지 않을래요? <br>
+      포어스와 함께 플로깅 해봐요!
+    </p>
+    <p class="plogging_btn">
+     <a href="./sub7.html #tag1"> 더보기</a>
+    </p>
+  </div> <!--evnet_text-->
+  </div> <!--plogging-->
+  </div> <!--plogging_po-->
+
+  <div class="challenge_po">
+  <div class="challenge" data-aos="fade-left">
+    <div class="challenge_back">
+      <img src="./images/challenge.png" alt="챌린지 배경">
+    </div> <!--challenge_back-->
+    <div class="event_text2">
+    <h3>CHALLENGE</h3>
+    <p class="challenge_text">
+      용기내, 그린그로잉 등 지구를 위한 다양한 <br>
+      캠페인에 같이 도전해봐요!
+    </p>
+    <p class="challenge_btn">
+      <a href="./sub7.html #tag2"> 더보기</a>
+    </p>
+  </div> <!--evnet_text-->
+  </div> <!--challenge-->
+  </div> <!--challenge_po-->
+  
+  </div> <!--event_po-->
+</div> <!--event_box-->
+</div> <!--event-->
+
+
+<div data-aos="fade-up"
+data-aos-easing="ease-out-back"
+data-aos-duration="1000" >
+<div id="magazine">
+  <p>MEGAZINE</p>
+
+<div class="magazine_po">
+
+<!-- Swiper -->
+<div class="swiper card_news">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <a href="./sub6.html"><img src="./images/card1.jpg" alt="카드뉴스이미지1"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"> <img src="./images/card2.jpg" alt="카드뉴스이미지2">  </a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"> <img src="./images/card3.jpg" alt="카드뉴스이미지3"> </a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/card4.jpg" alt="카드뉴스이미지4"></a>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/card5.jpg" alt="카드뉴스이미지5"></a>
+      <p></p>
+    </div>
+
+    <div class="swiper-slide">
+      <a href="#"><img src="./images/card6.jpg" alt="카드뉴스이미지6"></a>
+      <p></p>
+    </div>
+  </div> <!--swiper-wrapper-->
+  </div> <!--card_news-->
+
+  <div class="swiper-button-next card_next"></div>
+  <div class="swiper-button-prev card_prev"></div>
+
+</div> <!--magazine_po-->
+</div>
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".card_news", {
+    slidesPerView: 4,
+    spaceBetween: 25,
+    navigation: {
+      nextEl: ".card_next",
+      prevEl: ".card_prev",
+    },
+  });
+</script>
+</div> <!--magazine-->
+
+
+<div id="footer">
+  <div class="footer_in">
+    <a href="./index.html"> <img src="./images/textlogo_white.png" alt="로고이미지"></a>
+    <div class="footer_text">
+      <ul>
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">협업문의</a></li>
+      </ul>
+      <p>
+        FOR EARTH (주) / 대표 : 사공은 / 전화번호 : 02-123-4567 <br>
+        ⓒ FOR EARTH:Crop. All Rights reserved. 
+      </p>
+    </div> <!--footer_text-->
+    <ol>
+      <li><a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" alt="페이스북이미지"></a></li>
+      <li><a href="https://www.instagram.com/" target="_blank"><img src="./images/insta.png" alt="인스타그램이미지"></a></li>
+      <li><a href="https://section.blog.naver.com/BlogHome.nhn?directoryNo=0&currentPage=1&groupId=0" target="_blank"><img src="./images/blog.png" alt="블로그이미지"></a></li>
+    </ol>
+
+  </div> <!--footer_in-->
+</div> <!--footer-->
+
+
+<div id="top_btn">
+  <p><a href="#"><img src="./images/logo_ani_green.png" alt="탑버튼애니메이션"></a></p>
+  <a href="#"><img src="./images/top_btn.png" alt="탑_화살표이미지" class="up"></a>
+</div> <!--top_btn-->
+
+
+
+<script>
+  AOS.init();
+</script>
+    
+</body>
+</html>

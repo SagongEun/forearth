@@ -1,0 +1,376 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img, video, iframe{
+    vertical-align: middle;
+}
+ul, ol{
+    list-style: none;
+}
+body{
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'suite';
+    min-width: 1450px;
+}
+
+@font-face {
+    font-family: 'EF_ladio';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/EF_ladio.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*header*/
+#header{
+    background-color: #fff;
+    padding-top: 10px;
+    border-top: #2db671 3px solid;
+    width: 100%;
+    border-bottom: #cacaca 1px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header_in{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gnb{
+    display: flex;
+}
+.gnb >li{
+    font-family: "jamsil";
+    font-size: 18px;
+    font-weight: 500;
+    padding:25px 30px;
+    border-bottom: solid #fff 3px;
+}
+.header_in ol{
+    display: flex;
+}
+.header_in ol li a{
+    padding: 20px 0;
+    padding-left: 25px;
+    display: inline-block;
+}
+.gnb>li:hover>a{
+    color: #2db671;
+}
+
+.gnb>li{
+    position: relative;
+}
+.sub{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+} 
+.sub li a{
+    display: block;
+    background-color:rgba(44, 182, 112, 0.5);
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.sub li:nth-child(1){
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.sub{
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.gnb>li:hover>.sub{
+    opacity: 1;
+    transform: scaleY(1);
+    transition: all 0.5s;
+}
+.gnb>li:hover{
+    border-bottom: #2db671 solid 3px;
+}
+.sub li:hover a{
+    color: #2db671;
+}
+
+
+
+/*main*/
+#main>a{
+    display: block;
+    background:url(../images/shop_main_living.png) center no-repeat;
+    height: 500px;
+    margin-top: 95px;
+}
+
+#setliving_box{
+    position: relative;
+}
+
+/*menu_btn*/
+#menu_btn{ 
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.btn_meal{
+    background-color: #2db671;
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+.btn_meal a{
+    display: block;
+    color: #fff; 
+    margin-top: 17px;
+    font-family: 'jamsil';
+    font-weight: bold;
+    font-size: 30px;
+}
+.btn_living{
+    background-color: #2771af;
+    width: 240px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+}
+.btn_living a{
+    display: block;
+    color: #fff; 
+    margin-top: 17px;
+    font-family: 'jamsil';
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/*setliving*/
+#setliving{
+    background: url(../images/living_back1.png) no-repeat top center;
+}
+#setliving_box{
+    width: 1320px;
+    margin: 0 auto;
+}
+#setliving_box > h1{
+    color: #2771af;
+    padding-bottom: 90px;
+    font-family: 'jamsil';
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 120px;
+}
+.living_set img{
+    padding-bottom: 30px;    
+}
+.living_set .living_name{
+    color: #777;
+    padding-bottom: 5px;
+}
+.living_set h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.living_set .star{
+    display: flex;
+    color: #2771af;
+    font-size: 15px;
+}
+.living_set .star img{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.living_set_menu{
+    display: flex;
+}
+.living_set{
+    margin-right: 40px;
+}
+
+
+/*slide*/
+.slide{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 30px;
+}
+.slide_li{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+/*sub_living*/
+#sub_living>a{
+    display: block;
+    background:url(../images/shop_banner_living.png) center no-repeat;
+    height: 200px;
+    margin-top: 150px;
+}
+
+
+/*living_menu*/
+#living_menu{
+    background: url(../images/living_back2.png) no-repeat top center;
+}
+#living_menu_in{
+    width: 1320px;
+    margin: 0 auto;
+}
+#living_menu_in > h1{
+    font-family: "jamsil";
+    font-size: 30px;
+    color: #2771af;
+    font-weight: bold;
+    padding-bottom: 100px;
+    padding-top: 120px;
+}
+.living_menu_box{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.living_menu1 img{
+    padding-bottom: 30px;    
+}
+.living_menu1 .living_name{
+    color: #777;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.living_menu1 h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.living_menu1 .star{
+    display: flex;
+    color: #2771af;
+    font-size: 15px;
+    padding-left: 30px;
+}
+.living_menu1 .star img{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.living_menu1{
+    position: relative;
+}
+.living_new, .living_best{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+/*living_hover*/
+.living_hover{
+    position: relative;
+}
+.living_img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.living_img1{
+    transition: all 0.5s;
+}
+.living_hover:hover img{
+    transform: rotateY(180deg);
+}
+.living_hover:hover img:nth-child(1){
+    opacity: 0;
+}
+.living_hover:hover img:nth-child(2){
+    opacity: 1;
+}
+
+
+/*tab*/
+#living_menu ul{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+#living_menu ul li{
+    color: #3f8ccc;
+    padding: 0 10px;
+}
+#living_menu ul li img{
+    padding: 0 20px;
+}
+.active a{
+    color: #2771af;
+    font-weight: bold;
+}
+#tab2{
+    height: 550px;
+}
+
+
+/*footer*/
+#footer{
+    background-color: #2db671;
+    padding: 40px 0;
+    font-size: 16px;
+    margin-top: 100px;
+}
+.footer_in{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.footer_in > a{
+    padding: 0 60px;
+}
+.footer_text{
+    padding-right: 400px;
+}
+.footer_text ul{
+    display: flex;
+}
+.footer_text ul li{
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.footer_in ol{
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+.footer_in ol li{
+    padding-right: 15px;
+}
+.footer_text ul li:hover a{
+    font-weight: bold;
+}
